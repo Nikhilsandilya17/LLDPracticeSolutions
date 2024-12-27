@@ -5,9 +5,6 @@ import airlinemanagementsystem.model.User;
 import airlinemanagementsystem.service.FlightService;
 import airlinemanagementsystem.service.UserService;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class AirlineManagementSystemDemo {
 
