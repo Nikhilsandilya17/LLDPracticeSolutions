@@ -4,6 +4,7 @@ import java.util.List;
 
 public class User {
     int userId;
+
     List<Booking> bookings;
 
     public int getUserId() {
@@ -14,19 +15,19 @@ public class User {
         this.userId = userId;
     }
 
-    public int getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(int name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public User(int userId, int name) {
+    public User(int userId, String name) {
         this.userId = userId;
         this.name = name;
     }
 
-    int name;
+    String name;
 
 }

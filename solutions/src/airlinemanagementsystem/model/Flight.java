@@ -1,14 +1,25 @@
 package airlinemanagementsystem.model;
 
+import java.util.Map;
+
 public class Flight {
     int flightId;
     String source;
+    Map<Integer, User> seatCapacity; // {flightId, userid}
 
     public Flight(int flightId, String source, String destination, String startDate) {
         this.flightId = flightId;
         this.source = source;
         this.destination = destination;
         this.startDate = startDate;
+    }
+
+    public Map<Integer, User> getSeatCapacity() {
+        return seatCapacity;
+    }
+
+    public void setSeatCapacity(Map<Integer, User> seatCapacity) {
+        this.seatCapacity = seatCapacity;
     }
 
     public int getFlightId() {
@@ -45,5 +56,8 @@ public class Flight {
 
     String destination;
     String startDate;
+    Map<Booking, Payment> bookingPaymentHistory;
+    public static final int TOTAL_SEATS = 30;
+
 
 }

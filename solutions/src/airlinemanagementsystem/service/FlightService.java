@@ -13,4 +13,8 @@ public class FlightService {
     public List<Flight> getAllFlights(){
         return flights;
     }
+
+    public void cancelFlight(Flight flight){
+        flights.remove(flight);
+    }
 }

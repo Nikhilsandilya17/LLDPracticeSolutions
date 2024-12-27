@@ -13,7 +13,7 @@ public class SearchImpl implements Search {
     FlightService flightService = new FlightService();
 
     @Override
-    public List<Flight> search(String source, String destination, String date) {
+    public Flight searchFlight(String source, String destination, String date) {
         if (Objects.isNull(source) || Objects.isNull(destination) || Objects.isNull(date)) {
             throw new IllegalArgumentException("Invalid arguements passed");
         }
@@ -26,8 +26,13 @@ public class SearchImpl implements Search {
 //
 //        }
 //        return returnedFlights;
-        return flights.stream().filter(flight -> flight.getStartDate().equalsIgnoreCase(date)
-                        && destination.equalsIgnoreCase(flight.getDestination()) && source.equalsIgnoreCase(flight.getSource()))
-                .collect(Collectors.toList());
+
+        return flights.stream()
+                .filter(flight -> flight.getStartDate().equalsIgnoreCase(date)
+                        && destination.equalsIgnoreCase(flight.getDestination())
+                        && source.equalsIgnoreCase(flight.getSource()))
+                .findFirst()
+                .orElse(null);
+
     }
 }
