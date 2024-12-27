@@ -18,14 +18,6 @@ public class SearchImpl implements Search {
             throw new IllegalArgumentException("Invalid arguements passed");
         }
         List<Flight> flights = flightService.getAllFlights();
-//        List<Flight> returnedFlights = new ArrayList<>();
-//        for(Flight flight:flights){
-//            if(flight.getDestination().equalsIgnoreCase(destination) && flight.getSource().equalsIgnoreCase(source) && flight.getStartDate().equalsIgnoreCase(date)){
-//                returnedFlights.add(flight);
-//            }
-//
-//        }
-//        return returnedFlights;
 
         return flights.stream()
                 .filter(flight -> flight.getStartDate().equalsIgnoreCase(date)
