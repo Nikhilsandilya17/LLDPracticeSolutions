@@ -8,7 +8,7 @@ public class TicTacToe {
 
     private User userX;
     private User userY;
-    private Board board;
+    private final Board board;
 
     public User getUserX() {
         return userX;
