@@ -35,7 +35,7 @@ public class Board {
     }
 
     public boolean checkForWin(char c) {
-        //check for rows and diagonal
+        //check for rows and cols
         for (int i = 0; i < SIZE; i++) {
             if ((board[0][i] == c && board[1][i] == c && board[2][i] == c) || (board[i][0] == c && board[i][1] == c && board[i][2] == c)) {
                 return true;

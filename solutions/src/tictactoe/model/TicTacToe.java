@@ -34,11 +34,10 @@ public class TicTacToe {
 
 
     public void play() {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); // input
         User currentPlayer = userX;
+        board.displayBoard();
         while(true){
-            board.displayBoard();
-
             System.out.println("Enter position (x,y) for: "+currentPlayer.getName()+" playing with piece:"+currentPlayer.getPlayingPiece()+" ->");
             int x = scanner.nextInt();
             int y = scanner.nextInt();
