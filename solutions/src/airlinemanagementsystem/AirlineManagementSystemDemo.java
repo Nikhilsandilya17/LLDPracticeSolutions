@@ -8,7 +8,7 @@ import airlinemanagementsystem.service.UserService;
 
 public class AirlineManagementSystemDemo {
 
-    public static void main(String[] args){
+    public static void run(){
 
         FlightService flightService = new FlightService();
         Flight flight1 = new Flight(1, "DEL", "BLR", "26/12/2024");
