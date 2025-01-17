@@ -23,7 +23,8 @@ public class UserService {
     public void placeOrder(User user, Payment payment, Cart cart){
         if(!cartService.isCartEmpty()){
             int totalAmount = getCartTotalAmount(cart);
-            if(payment.pay(totalAmount)){
+            cart.setTotalAmount(totalAmount);
+            if(payment.pay(cart.getTotalAmount())){
                 List<Product> productsInCart = getProductsInCart(cart);
                 removeProductsFromInventory(productsInCart);
                 System.out.println("Order placed successfully");

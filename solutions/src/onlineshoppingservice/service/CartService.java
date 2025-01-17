@@ -16,6 +16,7 @@ public class CartService {
         }
         else if(product.getQuantity() == quantity){
             System.out.println("Requested quantity: "+quantity +" is same as available quantity");
+            cart.put(product, product.getQuantity());
             productService.removeProductFromInventory(product, product.getQuantity());
             product.setQuantity(0);
         }

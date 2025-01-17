@@ -43,6 +43,7 @@ public class OnlineShoppingServiceDemo {
             System.out.println("Product Name: "+product.getName()+" with quantity: "+product.getQuantity()+" and price: "+product.getPrice());
         }
 
+        //Search
         List<Product> products = searchService.searchProductsBasedOnPriceRange(100,500);
         Product product = searchService.searchProduct("BAT");
 
