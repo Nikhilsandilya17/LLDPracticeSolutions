@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d1c806c-5efc-435e-a232-9c6a923a5978" name="Changes" comment="facebook">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/online-shopping-service.md" beforeDir="false" afterPath="$PROJECT_DIR$/problems/online-shopping-service.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/scoial-networking-service.md" beforeDir="false" afterPath="$PROJECT_DIR$/problems/scoial-networking-service.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/tic-tac-toe.md" beforeDir="false" afterPath="$PROJECT_DIR$/problems/tic-tac-toe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/twitter.md" beforeDir="false" afterPath="$PROJECT_DIR$/problems/twitter.md" afterDir="false" />
-    </list>
+    <list default="true" id="8d1c806c-5efc-435e-a232-9c6a923a5978" name="Changes" comment="decorator pattern" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +14,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -57,6 +51,7 @@
     "Application.ChessValidator.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.CoffeeDemo.executor": "Run",
+    "Application.FactoryDemo.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main (2).executor": "Run",
     "Application.Main.executor": "Run",
@@ -85,7 +80,7 @@
       <recent name="$PROJECT_DIR$/problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CoffeeDemo">
+  <component name="RunManager" selected="Application.FactoryDemo">
     <configuration name="ChessValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chessvalidator.ChessValidator" />
       <module name="solutions" />
@@ -125,9 +120,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="solutions" />
+    <configuration name="FactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational_design_pattern.factory.FactoryDemo" />
+      <module name="designPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational_design_pattern.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FactoryDemo" />
         <item itemvalue="Application.CoffeeDemo" />
         <item itemvalue="Application.ChessValidator" />
         <item itemvalue="Application.Stock" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744119431809</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="decorator pattern">
+      <option name="closed" value="true" />
+      <created>1744232902511</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744232902511</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +240,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="amazon" />
     <MESSAGE value="facebook" />
-    <option name="LAST_COMMIT_MESSAGE" value="facebook" />
+    <MESSAGE value="decorator pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="decorator pattern" />
   </component>
 </project>
