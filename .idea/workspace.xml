@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d1c806c-5efc-435e-a232-9c6a923a5978" name="Changes" comment="decorator pattern" />
+    <list default="true" id="8d1c806c-5efc-435e-a232-9c6a923a5978" name="Changes" comment="factory pattern" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -231,7 +231,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744232902511</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="factory pattern">
+      <option name="closed" value="true" />
+      <created>1744576994495</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744576994495</updated>
+    </task>
+    <task id="LOCAL-00009" summary="factory pattern">
+      <option name="closed" value="true" />
+      <created>1744606030308</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1744606030308</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +257,7 @@
     <MESSAGE value="amazon" />
     <MESSAGE value="facebook" />
     <MESSAGE value="decorator pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="decorator pattern" />
+    <MESSAGE value="factory pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="factory pattern" />
   </component>
 </project>
