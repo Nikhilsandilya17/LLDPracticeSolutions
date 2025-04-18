@@ -33,7 +33,7 @@ public abstract class Post {
         return createdTime;
     }
 
-    public void setCreatedTime(LocalDateTime createdTime) {
+    public void setCreatedTime(String createdTime) {
         this.createdTime = createdTime;
     }
 }
