@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8d1c806c-5efc-435e-a232-9c6a923a5978" name="Changes" comment="factory pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/src/socialnetworkingservice/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/src/socialnetworkingservice/model/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/ShapeFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,14 +17,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -43,61 +43,49 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2qetcogbyRBdjxnoRYikTXNFJuC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ChessValidator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CoffeeDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FactoryDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Stock.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/nikhil/Desktop/Nikhil/Nikhil/Practice 3.16.21 PM/designPatterns&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ChessValidator.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.CoffeeDemo.executor": "Run",
+    "Application.FactoryDemo.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Stock.executor": "Run",
+    "Application.StrategyDemo.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/nikhil/Desktop/Nikhil/Nikhil/Practice 3.16.21 PM/designPatterns",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/designPatterns" />
       <recent name="$PROJECT_DIR$/problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="ChessValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chessvalidator.ChessValidator" />
-      <module name="solutions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chessvalidator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StrategyDemo">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="builder.BetterCode.Client" />
       <module name="designPatterns" />
@@ -157,12 +145,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StrategyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behaviourial_design_pattern.strategy.BetterCode.StrategyDemo" />
+      <module name="designPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behaviourial_design_pattern.strategy.BetterCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CoffeeDemo" />
-        <item itemvalue="Application.FactoryDemo" />
-        <item itemvalue="Application.ChessValidator" />
+        <item itemvalue="Application.StrategyDemo" />
         <item itemvalue="Application.Stock" />
+        <item itemvalue="Application.FactoryDemo" />
+        <item itemvalue="Application.CoffeeDemo" />
         <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
@@ -259,7 +260,39 @@
       <option name="project" value="LOCAL" />
       <updated>1744661188868</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="factory pattern">
+      <option name="closed" value="true" />
+      <created>1744950863249</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744950863249</updated>
+    </task>
+    <task id="LOCAL-00012" summary="factory pattern">
+      <option name="closed" value="true" />
+      <created>1744950896531</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744950896531</updated>
+    </task>
+    <task id="LOCAL-00013" summary="factory pattern">
+      <option name="closed" value="true" />
+      <created>1744950954887</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744950954887</updated>
+    </task>
+    <task id="LOCAL-00014" summary="factory pattern">
+      <option name="closed" value="true" />
+      <created>1744951007859</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1744951007859</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,5 +304,16 @@
     <MESSAGE value="decorator pattern" />
     <MESSAGE value="factory pattern" />
     <option name="LAST_COMMIT_MESSAGE" value="factory pattern" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/StrategyDemo.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
