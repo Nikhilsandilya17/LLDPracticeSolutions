@@ -5,6 +5,8 @@ public class DebugLogProcessor extends LogProcessor{
     protected DebugLogProcessor(LogProcessor logProcessor) {
         super(logProcessor);
     }
+
+    @Override
     public void log(LogType logType, String message){
         if(logType == LogType.DEBUG){
             System.out.println("DEBUG: "+ message);

@@ -6,6 +6,7 @@ public class InfoLogProcessor extends LogProcessor{
         super(logProcessor);
     }
 
+    @Override
     public void log(LogType logType, String message){
         if(logType==LogType.INFO){
             System.out.println("INFO: " + message);

@@ -6,6 +6,7 @@ public class ErrorLogProcessor extends LogProcessor{
         super(logProcessor);
     }
 
+    @Override
     public void log(LogType logType, String message){
         if(logType == LogType.ERROR){
             System.out.println("ERROR: " + message);
