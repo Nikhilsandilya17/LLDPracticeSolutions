@@ -1,6 +1,7 @@
 package behaviourial_design_pattern.strategy.BetterCode;
 
 public class Vehicle {
+
     DriveStrategy driveStrategy;
     //Constructor injection
 

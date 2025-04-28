@@ -6,5 +6,9 @@ public class StrategyDemo {
         normalVehicle.drive();
         Vehicle specialVehicle = new Vehicle(new SpecialDrive());
         specialVehicle.drive();
+        Vehicle xyzVehicle = new Vehicle(new XYZDrive());
+        xyzVehicle.drive();
+
+
     }
 }
