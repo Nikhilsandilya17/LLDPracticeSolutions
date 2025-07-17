@@ -17,4 +17,6 @@ and TVRemote will have a state
 also TVRemote will have functionality of pressPowerButton()
 in this method, we will state.pressPowerButton(this)
 where this represents current state object
+
+The State Design Pattern is a behavioral design pattern that allows an object to change its behavior when its internal state changes.
  */
