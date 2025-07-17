@@ -1,4 +1,4 @@
-package decorator;
+package structural_design_pattern.decorator;
 
 public class Cream extends CoffeeDecorator{
     Coffee coffee;

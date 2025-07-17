@@ -1,4 +1,4 @@
-package decorator;
+package structural_design_pattern.decorator;
 
 public class CapuchinoCoffee implements Coffee{
     @Override

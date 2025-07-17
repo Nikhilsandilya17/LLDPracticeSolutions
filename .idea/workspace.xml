@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d1c806c-5efc-435e-a232-9c6a923a5978" name="Changes" comment="factory pattern">
+    <list default="true" id="8d1c806c-5efc-435e-a232-9c6a923a5978" name="Changes" comment="COR pattern">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/NormalDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/NormalDrive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/StrategyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/StrategyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/FactoryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/FactoryDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/FactoryDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/FactoryDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/BlackCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/BlackCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/CapuchinoCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/CapuchinoCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/CoffeeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/CoffeeDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/CoffeeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/CoffeeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/Cream.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/Cream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/ExpressoCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/ExpressoCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/Milk.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/Milk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/Sugar.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/Sugar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,7 +45,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Nikhilsandilya17/Practice.git&quot;,
-    &quot;accountId&quot;: &quot;990b693e-55d3-4411-b991-91b3d4348d4e&quot;
+    &quot;accountId&quot;: &quot;b90fbd26-6ba3-4c85-b80c-af9e764f93b1&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -64,14 +69,17 @@
     "Application.Main (1).executor": "Run",
     "Application.Main (2).executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MediaPlayerDemo.executor": "Run",
+    "Application.NullObjectDemo.executor": "Run",
     "Application.Stock.executor": "Run",
     "Application.StrategyDemo.executor": "Run",
+    "Application.TVRemoteDemo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/nikhil/Desktop/Nikhil/Nikhil/Practice 3.16.21 PM/designPatterns",
+    "last_opened_file_path": "/Users/nikhil/Desktop/Nikhil/Nikhil/Practice 3.16.21 PM",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,49 +98,36 @@
       <recent name="$PROJECT_DIR$/problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoggingDemo">
-    <configuration name="CoffeeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="decorator.CoffeeDemo" />
-      <module name="designPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational_design_pattern.factory.FactoryDemo" />
-      <module name="designPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creational_design_pattern.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoggingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behaviourial_design_pattern.chainOfResponsibility.LoggingDemo" />
-      <module name="designPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="behaviourial_design_pattern.chainOfResponsibility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TVRemoteDemo">
     <configuration name="Main (2)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="solutions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediaPlayerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural_design_pattern.stateDesignPattern.ProblematicCode1.MediaPlayerDemo" />
+      <module name="designPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural_design_pattern.stateDesignPattern.ProblematicCode1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NullObjectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behaviourial_design_pattern.nullObjectDesignPattern.NullObjectDemo" />
+      <module name="designPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behaviourial_design_pattern.nullObjectDesignPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,13 +158,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TVRemoteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural_design_pattern.stateDesignPattern.ProblematicCode2.TVRemoteDemo" />
+      <module name="designPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural_design_pattern.stateDesignPattern.ProblematicCode2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LoggingDemo" />
+        <item itemvalue="Application.TVRemoteDemo" />
+        <item itemvalue="Application.MediaPlayerDemo" />
+        <item itemvalue="Application.NullObjectDemo" />
         <item itemvalue="Application.StrategyDemo" />
-        <item itemvalue="Application.FactoryDemo" />
         <item itemvalue="Application.Stock" />
-        <item itemvalue="Application.CoffeeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +321,31 @@
       <option name="project" value="LOCAL" />
       <updated>1745132092064</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="COR pattern">
+      <option name="closed" value="true" />
+      <created>1745846614183</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1745846614183</updated>
+    </task>
+    <task id="LOCAL-00018" summary="COR pattern">
+      <option name="closed" value="true" />
+      <created>1745846653055</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1745846653055</updated>
+    </task>
+    <task id="LOCAL-00019" summary="COR pattern">
+      <option name="closed" value="true" />
+      <created>1745849644886</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1745849644886</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +357,8 @@
     <MESSAGE value="decorator pattern" />
     <MESSAGE value="strategy pattern" />
     <MESSAGE value="factory pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="factory pattern" />
+    <MESSAGE value="COR pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="COR pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -356,13 +389,8 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/LogProcessor.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/ErrorLogProcessor.java</url>
-          <line>9</line>
+          <line>10</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -372,27 +400,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/ErrorLogProcessor.java</url>
-          <line>14</line>
+          <line>15</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/DebugLogProcessor.java</url>
-          <line>8</line>
+          <line>10</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/DebugLogProcessor.java</url>
-          <line>13</line>
+          <line>15</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/InfoLogProcessor.java</url>
-          <line>9</line>
+          <line>10</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/InfoLogProcessor.java</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -404,6 +432,21 @@
           <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/LogProcessor.java</url>
           <line>9</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/LogProcessor.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designPatterns/src/structural_design_pattern/proxy/EmployeeDao.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designPatterns/src/structural_design_pattern/proxy/EmployeeDaoProxy.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

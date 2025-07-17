@@ -1,4 +1,4 @@
-package decorator;
+package structural_design_pattern.decorator;
 
 public class CoffeeDemo {
     public static void main(String[] args) {
