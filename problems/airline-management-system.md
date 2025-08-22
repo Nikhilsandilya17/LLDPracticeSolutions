@@ -22,7 +22,7 @@
 3. The **Passenger** class represents a passenger, with properties such as ID, name, email, and phone number.
 4. The **Booking** class represents a booking made by a passenger for a specific flight and seat, with properties such as booking number, flight, passenger, seat, price, and booking status.
 5. The **Seat** class represents a seat on a flight, with properties like seat number, seat type, and seat status.
-6. The **Payment** class represents a payment made for a booking, with properties such as payment ID, payment method, amount, and payment status.
+6. The **openclosedprinciple.Payment** class represents a payment made for a booking, with properties such as payment ID, payment method, amount, and payment status.
 7. The **FlightSearch** class provides functionality to search for flights based on source, destination, and date.
 8. The **BookingManager** class manages the creation and cancellation of bookings. It follows the Singleton pattern to ensure a single instance of the booking manager.
 9. The **PaymentProcessor** class handles the processing of payments. It follows the Singleton pattern to ensure a single instance of the payment processor.

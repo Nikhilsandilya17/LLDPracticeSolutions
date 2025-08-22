@@ -4,18 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d1c806c-5efc-435e-a232-9c6a923a5978" name="Changes" comment="COR pattern">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8d1c806c-5efc-435e-a232-9c6a923a5978" name="Changes" comment="State design pattern">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/BlackCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/BlackCoffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/CapuchinoCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/CapuchinoCoffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/Coffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/CoffeeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/CoffeeDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/CoffeeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/CoffeeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/Cream.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/Cream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/ExpressoCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/ExpressoCoffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/Milk.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/Milk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/decorator/Sugar.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/Sugar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observable/IphoneStockObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observable/IphoneStockObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observable/StockObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observable/StockObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observer/EmailNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observer/EmailNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observer/MobileNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observer/MobileNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observer/NotificationObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observer/NotificationObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/Cream.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/Cream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/behaviourial_design_pattern/observer/Stock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/behaviourial_design_pattern/observer/observable/IphoneStockObservable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/behaviourial_design_pattern/observer/observable/StockObservable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/behaviourial_design_pattern/observer/observer/EmailNotification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/behaviourial_design_pattern/observer/observer/MobileNotification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/behaviourial_design_pattern/observer/observer/NotificationObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/FactoryDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/FactoryDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/airline-management-system.md" beforeDir="false" afterPath="$PROJECT_DIR$/problems/airline-management-system.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/online-shopping-service.md" beforeDir="false" afterPath="$PROJECT_DIR$/problems/online-shopping-service.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +77,18 @@
     "Application.ChessValidator.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.CoffeeDemo.executor": "Run",
+    "Application.DIPDemo.executor": "Run",
+    "Application.DIPDemoBetter.executor": "Run",
     "Application.FactoryDemo.executor": "Run",
+    "Application.LSPDemo.executor": "Run",
     "Application.LoggingDemo.executor": "Debug",
     "Application.Main (1).executor": "Run",
     "Application.Main (2).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MediaPlayerDemo.executor": "Run",
     "Application.NullObjectDemo.executor": "Run",
+    "Application.ObserverDemo.executor": "Run",
+    "Application.SingletonDemo.executor": "Run",
     "Application.Stock.executor": "Run",
     "Application.StrategyDemo.executor": "Run",
     "Application.TVRemoteDemo.executor": "Run",
@@ -85,6 +103,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/nikhil/Desktop/Nikhil/Nikhil/Practice 3.16.21 PM/SOLID/openClosedPrinciple/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -98,7 +117,46 @@
       <recent name="$PROJECT_DIR$/problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TVRemoteDemo">
+  <component name="RunManager" selected="Application.DIPDemoBetter">
+    <configuration name="DIPDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dependencyinversionprinciple.DIPDemo" />
+      <module name="SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dependencyinversionprinciple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DIPDemoBetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dependencyinversionprinciple.BetterSolution.DIPDemoBetter" />
+      <module name="SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dependencyinversionprinciple.BetterSolution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LSPDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liskovsubstitutionprinciple.LSPDemo" />
+      <module name="SOLID" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liskovsubstitutionprinciple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="solutions" />
@@ -106,64 +164,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediaPlayerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural_design_pattern.stateDesignPattern.ProblematicCode1.MediaPlayerDemo" />
-      <module name="designPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural_design_pattern.stateDesignPattern.ProblematicCode1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="openclosedprinciple.Main" />
+      <module name="SOLID" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullObjectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behaviourial_design_pattern.nullObjectDesignPattern.NullObjectDemo" />
+    <configuration name="ObserverDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behaviourial_design_pattern.observer.Example2.ObserverDemo" />
       <module name="designPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behaviourial_design_pattern.nullObjectDesignPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Stock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behaviourial_design_pattern.observer.Stock" />
-      <module name="designPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="behaviourial_design_pattern.observer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StrategyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behaviourial_design_pattern.strategy.BetterCode.StrategyDemo" />
-      <module name="designPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="behaviourial_design_pattern.strategy.BetterCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TVRemoteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural_design_pattern.stateDesignPattern.ProblematicCode2.TVRemoteDemo" />
-      <module name="designPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural_design_pattern.stateDesignPattern.ProblematicCode2.*" />
+          <option name="PATTERN" value="behaviourial_design_pattern.observer.Example2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TVRemoteDemo" />
-        <item itemvalue="Application.MediaPlayerDemo" />
-        <item itemvalue="Application.NullObjectDemo" />
-        <item itemvalue="Application.StrategyDemo" />
-        <item itemvalue="Application.Stock" />
+        <item itemvalue="Application.DIPDemoBetter" />
+        <item itemvalue="Application.DIPDemo" />
+        <item itemvalue="Application.LSPDemo" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ObserverDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +358,39 @@
       <option name="project" value="LOCAL" />
       <updated>1745849644886</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="State design pattern">
+      <option name="closed" value="true" />
+      <created>1752773287287</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1752773287287</updated>
+    </task>
+    <task id="LOCAL-00021" summary="State design pattern">
+      <option name="closed" value="true" />
+      <created>1752773303497</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1752773303497</updated>
+    </task>
+    <task id="LOCAL-00022" summary="State design pattern">
+      <option name="closed" value="true" />
+      <created>1752773366236</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1752773366236</updated>
+    </task>
+    <task id="LOCAL-00023" summary="State design pattern">
+      <option name="closed" value="true" />
+      <created>1752773504295</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1752773504295</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,7 +403,8 @@
     <MESSAGE value="strategy pattern" />
     <MESSAGE value="factory pattern" />
     <MESSAGE value="COR pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="COR pattern" />
+    <MESSAGE value="State design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="State design pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -447,6 +493,16 @@
           <url>file://$PROJECT_DIR$/designPatterns/src/structural_design_pattern/proxy/EmployeeDaoProxy.java</url>
           <line>12</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/FactoryDemo.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SOLID/src/openclosedprinciple/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

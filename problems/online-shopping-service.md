@@ -23,6 +23,6 @@
 4. The **OrderItem** class represents an item within an order, consisting of the product and the quantity ordered.
 5. The **OrderStatus** enum represents the different statuses an order can have, such as pending, processing, shipped, delivered, or cancelled.
 6. The **ShoppingCart** class represents the account's shopping cart, allowing them to add, remove, and update item quantities. It maintains a map of product IDs and order items.
-7. The **Payment** interface defines the contract for processing payments, with a concrete implementation CreditCardPayment.
+7. The **openclosedprinciple.Payment** interface defines the contract for processing payments, with a concrete implementation CreditCardPayment.
 8. The **OnlineShoppingService** class is the central component of the online shopping service. It follows the Singleton pattern to ensure only one instance of the service exists. It provides methods to register users, add products, search products, place orders, and retrieve order information. It handles concurrent access to shared resources using synchronization.
 9. The **OnlineShoppingServiceDemo** class demonstrates the usage of the online shopping service by registering users, adding products, searching for products, placing orders, and viewing order history.

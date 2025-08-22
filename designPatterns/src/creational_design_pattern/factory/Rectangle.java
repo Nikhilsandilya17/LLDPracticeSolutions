@@ -1,6 +1,6 @@
 package creational_design_pattern.factory;
 
-public class Rectangle implements Shape{
+public class Rectangle extends Shape{
 
     @Override
     public void draw() {

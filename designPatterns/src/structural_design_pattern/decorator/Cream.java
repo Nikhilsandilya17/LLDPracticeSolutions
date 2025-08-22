@@ -15,6 +15,5 @@ public class Cream extends CoffeeDecorator{
     @Override
     public String getDescription() {
         return this.coffee.getDescription() + " plus Cream";
-
     }
 }
