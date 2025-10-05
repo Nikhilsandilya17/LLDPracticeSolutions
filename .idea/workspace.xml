@@ -4,31 +4,305 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d1c806c-5efc-435e-a232-9c6a923a5978" name="Changes" comment="State design pattern">
+    <list default="true" id="8d1c806c-5efc-435e-a232-9c6a923a5978" name="Changes" comment="Prototype design pattern">
+      <change afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/prototye/Tutorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/prototye/approach1/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/prototye/approach1/PrototypeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/prototye/approach2/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/prototye/approach2/PremiumEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/prototye/approach2/PrototypeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/prototye/approach3/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/prototye/approach3/PremiumEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/prototye/approach3/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/prototye/approach3/PrototypeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/dependencyinversionprinciple/BetterSolution/DIPDemoBetter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/dependencyinversionprinciple/BetterSolution/Mongo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/dependencyinversionprinciple/BetterSolution/PSql.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/dependencyinversionprinciple/BetterSolution/Sql.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/dependencyinversionprinciple/BetterSolution/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/dependencyinversionprinciple/BetterSolution/UserDatabase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/dependencyinversionprinciple/DIPDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/dependencyinversionprinciple/UserDatabase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/dependencyinversionprinciple/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/interfacesegregationprinciple/AudioMediaPlayerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/interfacesegregationprinciple/BetterCode/AudioMediaPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/interfacesegregationprinciple/BetterCode/VideoMediaPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/interfacesegregationprinciple/MediaPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/interfacesegregationprinciple/VideoMediaPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/liskovsubstitutionprinciple/BetterSolution/Bicycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/liskovsubstitutionprinciple/BetterSolution/EngineVehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/liskovsubstitutionprinciple/BetterSolution/NonEngineVehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/liskovsubstitutionprinciple/BetterSolution/Wheels.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/liskovsubstitutionprinciple/Bicycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/liskovsubstitutionprinciple/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/liskovsubstitutionprinciple/LSPDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/liskovsubstitutionprinciple/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/openclosedprinciple/CashPayment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/openclosedprinciple/DebitPayment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/openclosedprinciple/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/openclosedprinciple/Payment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/openclosedprinciple/ProcessPayment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/singleresponsibilityprinciple/BetterCode/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/singleresponsibilityprinciple/BetterCode/EmployeeSalary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/singleresponsibilityprinciple/BetterCode/PerformaceReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/SOLID/src/singleresponsibilityprinciple/ProblematicCode/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/DebugLogProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/ErrorLogProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/InfoLogProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/LogProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/LogType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/LoggingDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/nullObjectDesignPattern/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/nullObjectDesignPattern/NullObjectDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/nullObjectDesignPattern/NullVehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/nullObjectDesignPattern/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/nullObjectDesignPattern/VehicleFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/observer/Example2/NotificationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/observer/Example2/Observer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/observer/Example2/ObserverDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/observer/Example2/Subject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/observer/Example2/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/Stock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observable/IphoneStockObservable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observable/StockObservable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observer/EmailNotification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observer/MobileNotification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observer/NotificationObserver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/DriveStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/NormalDrive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/SpecialDrive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/StrategyDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/XYZDrive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/strategy/ProblematicCode/OffRoadVehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/strategy/ProblematicCode/PassengerVehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/strategy/ProblematicCode/SportVehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/behaviourial_design_pattern/strategy/ProblematicCode/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/builder/BetterCode/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/builder/BetterCode/Director.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/builder/BetterCode/EngineeringStudentBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/builder/BetterCode/OtherStudentBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/builder/BetterCode/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/builder/BetterCode/StudentBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/builder/ProblematicCode/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/factory/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/factory/FactoryDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/factory/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/factory/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/factory/ShapeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/factory/ShapeFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/factory/ShapeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/prototye/PrototypeDesignPatternDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/prototye/approach1/Email.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/prototye/approach1/PrototypeDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/prototye/approach2/Email.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/prototye/approach2/PremiumEmail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/prototye/approach2/PrototypeDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/prototye/approach3/Email.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/prototye/approach3/PremiumEmail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/prototye/approach3/Prototype.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/prototye/approach3/PrototypeDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/singleton/SingletonDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/singleton/SingletonService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/decorator/BlackCoffee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/decorator/CapuchinoCoffee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/decorator/Coffee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/decorator/CoffeeDecorator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/decorator/CoffeeDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/decorator/Cream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/decorator/ExpressoCoffee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/decorator/Milk.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/decorator/Sugar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/proxy/EmployeeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/proxy/EmployeeDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/proxy/EmployeeDaoProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/proxy/ProxyDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode1/MediaPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode1/MediaPlayerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode1/PausedState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode1/PlayingState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode1/State.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode2/OFFState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode2/ONState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode2/State.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode2/TVRemoteBasic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode2/TVRemoteDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/stateDesignPattern/ProblematicCode1/MediaPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/stateDesignPattern/ProblematicCode1/MediaPlayerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/stateDesignPattern/ProblematicCode2/TVRemoteBasic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/structural_design_pattern/stateDesignPattern/ProblematicCode2/TVRemoteDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observable/IphoneStockObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observable/IphoneStockObservable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observable/StockObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observable/StockObservable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observer/EmailNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observer/EmailNotification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observer/MobileNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observer/MobileNotification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observer/NotificationObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observer/NotificationObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/Cream.java" beforeDir="false" afterPath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/Cream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/behaviourial_design_pattern/observer/Stock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/behaviourial_design_pattern/observer/observable/IphoneStockObservable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/behaviourial_design_pattern/observer/observable/StockObservable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/behaviourial_design_pattern/observer/observer/EmailNotification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/behaviourial_design_pattern/observer/observer/MobileNotification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/behaviourial_design_pattern/observer/observer/NotificationObserver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/FactoryDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/FactoryDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPatterns/creational_design_pattern/factory/Shape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/airline-management-system.md" beforeDir="false" afterPath="$PROJECT_DIR$/problems/airline-management-system.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/online-shopping-service.md" beforeDir="false" afterPath="$PROJECT_DIR$/problems/online-shopping-service.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/dependencyinversionprinciple/BetterSolution/DIPDemoBetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/dependencyinversionprinciple/BetterSolution/DIPDemoBetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/dependencyinversionprinciple/BetterSolution/Mongo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/dependencyinversionprinciple/BetterSolution/Mongo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/dependencyinversionprinciple/BetterSolution/PSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/dependencyinversionprinciple/BetterSolution/PSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/dependencyinversionprinciple/BetterSolution/Sql.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/dependencyinversionprinciple/BetterSolution/Sql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/dependencyinversionprinciple/BetterSolution/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/dependencyinversionprinciple/BetterSolution/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/dependencyinversionprinciple/BetterSolution/UserDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/dependencyinversionprinciple/BetterSolution/UserDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/dependencyinversionprinciple/DIPDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/dependencyinversionprinciple/DIPDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/dependencyinversionprinciple/UserDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/dependencyinversionprinciple/UserDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/dependencyinversionprinciple/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/dependencyinversionprinciple/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/interfacesegregationprinciple/AudioMediaPlayerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/interfacesegregationprinciple/AudioMediaPlayerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/interfacesegregationprinciple/BetterCode/AudioMediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/interfacesegregationprinciple/BetterCode/AudioMediaPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/interfacesegregationprinciple/BetterCode/VideoMediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/interfacesegregationprinciple/BetterCode/VideoMediaPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/interfacesegregationprinciple/MediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/interfacesegregationprinciple/MediaPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/interfacesegregationprinciple/VideoMediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/interfacesegregationprinciple/VideoMediaPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/liskovsubstitutionprinciple/BetterSolution/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/liskovsubstitutionprinciple/BetterSolution/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/liskovsubstitutionprinciple/BetterSolution/EngineVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/liskovsubstitutionprinciple/BetterSolution/EngineVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/liskovsubstitutionprinciple/BetterSolution/NonEngineVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/liskovsubstitutionprinciple/BetterSolution/NonEngineVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/liskovsubstitutionprinciple/BetterSolution/Wheels.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/liskovsubstitutionprinciple/BetterSolution/Wheels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/liskovsubstitutionprinciple/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/liskovsubstitutionprinciple/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/liskovsubstitutionprinciple/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/liskovsubstitutionprinciple/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/liskovsubstitutionprinciple/LSPDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/liskovsubstitutionprinciple/LSPDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/liskovsubstitutionprinciple/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/liskovsubstitutionprinciple/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/openclosedprinciple/CashPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/openclosedprinciple/CashPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/openclosedprinciple/DebitPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/openclosedprinciple/DebitPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/openclosedprinciple/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/openclosedprinciple/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/openclosedprinciple/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/openclosedprinciple/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/openclosedprinciple/ProcessPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/openclosedprinciple/ProcessPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/singleresponsibilityprinciple/BetterCode/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/singleresponsibilityprinciple/BetterCode/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/singleresponsibilityprinciple/BetterCode/EmployeeSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/singleresponsibilityprinciple/BetterCode/EmployeeSalary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/singleresponsibilityprinciple/BetterCode/PerformaceReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/singleresponsibilityprinciple/BetterCode/PerformaceReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/singleresponsibilityprinciple/ProblematicCode/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/SOLID/src/singleresponsibilityprinciple/ProblematicCode/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/DebugLogProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/DebugLogProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/ErrorLogProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/ErrorLogProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/InfoLogProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/InfoLogProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/LogProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/LogProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/LogType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/LogType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/LoggingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/LoggingDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/nullObjectDesignPattern/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/nullObjectDesignPattern/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/nullObjectDesignPattern/NullObjectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/nullObjectDesignPattern/NullObjectDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/nullObjectDesignPattern/NullVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/nullObjectDesignPattern/NullVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/nullObjectDesignPattern/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/nullObjectDesignPattern/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/nullObjectDesignPattern/VehicleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/nullObjectDesignPattern/VehicleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/Example2/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/observer/Example2/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/Example2/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/observer/Example2/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/Example2/ObserverDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/observer/Example2/ObserverDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/Example2/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/observer/Example2/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/Example2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/observer/Example2/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observable/IphoneStockObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observable/IphoneStockObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observable/StockObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observable/StockObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observer/EmailNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observer/EmailNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observer/MobileNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observer/MobileNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observer/NotificationObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/observer/observerExample1/observer/NotificationObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/DriveStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/DriveStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/NormalDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/NormalDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/SpecialDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/SpecialDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/StrategyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/StrategyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/XYZDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/XYZDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/ProblematicCode/OffRoadVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/strategy/ProblematicCode/OffRoadVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/ProblematicCode/PassengerVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/strategy/ProblematicCode/PassengerVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/ProblematicCode/SportVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/strategy/ProblematicCode/SportVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/ProblematicCode/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/strategy/ProblematicCode/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/builder/BetterCode/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/builder/BetterCode/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/builder/BetterCode/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/builder/BetterCode/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/builder/BetterCode/EngineeringStudentBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/builder/BetterCode/EngineeringStudentBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/builder/BetterCode/OtherStudentBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/builder/BetterCode/OtherStudentBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/builder/BetterCode/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/builder/BetterCode/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/builder/BetterCode/StudentBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/builder/BetterCode/StudentBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/builder/ProblematicCode/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/builder/ProblematicCode/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/factory/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/FactoryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/factory/FactoryDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/factory/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/factory/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/ShapeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/factory/ShapeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/factory/ShapeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/singleton/SingletonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/singleton/SingletonDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/creational_design_pattern/singleton/SingletonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/singleton/SingletonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/BlackCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/decorator/BlackCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/CapuchinoCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/decorator/CapuchinoCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/decorator/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/CoffeeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/decorator/CoffeeDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/CoffeeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/decorator/CoffeeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/Cream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/decorator/Cream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/ExpressoCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/decorator/ExpressoCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/Milk.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/decorator/Milk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/decorator/Sugar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/decorator/Sugar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/proxy/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/proxy/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/proxy/EmployeeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/proxy/EmployeeDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/proxy/EmployeeDaoProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/proxy/EmployeeDaoProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/proxy/ProxyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/proxy/ProxyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode1/MediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode1/MediaPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode1/MediaPlayerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode1/MediaPlayerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode1/PausedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode1/PausedState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode1/PlayingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode1/PlayingState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode1/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode1/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode2/OFFState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode2/OFFState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode2/ONState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode2/ONState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode2/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode2/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode2/TVRemoteBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode2/TVRemoteBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode2/TVRemoteDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/stateDesignPattern/BetterCode2/TVRemoteDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/stateDesignPattern/ProblematicCode1/MediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/stateDesignPattern/ProblematicCode1/MediaPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/stateDesignPattern/ProblematicCode1/MediaPlayerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/stateDesignPattern/ProblematicCode1/MediaPlayerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/stateDesignPattern/ProblematicCode2/TVRemoteBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/stateDesignPattern/ProblematicCode2/TVRemoteBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPatterns/src/structural_design_pattern/stateDesignPattern/ProblematicCode2/TVRemoteDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/stateDesignPattern/ProblematicCode2/TVRemoteDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/airline-management-system.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/online-shopping-service.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/scoial-networking-service.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/tic-tac-toe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/twitter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/solutions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/airlinemanagementsystem/AirlineManagementSystemDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/airlinemanagementsystem/enums/PaymentMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/airlinemanagementsystem/enums/SeatType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/airlinemanagementsystem/model/Booking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/airlinemanagementsystem/model/Flight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/airlinemanagementsystem/model/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/airlinemanagementsystem/model/Seat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/airlinemanagementsystem/model/UPIPayment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/airlinemanagementsystem/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/airlinemanagementsystem/search/Search.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/airlinemanagementsystem/search/impl/SearchImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/airlinemanagementsystem/service/FlightService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/airlinemanagementsystem/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/chessvalidator/ChessValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/onlineshoppingservice/OnlineShoppingServiceDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/onlineshoppingservice/enums/OrderStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/onlineshoppingservice/enums/PaymentStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/onlineshoppingservice/enums/ProductCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/onlineshoppingservice/model/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/onlineshoppingservice/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/onlineshoppingservice/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/onlineshoppingservice/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/onlineshoppingservice/payment/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/onlineshoppingservice/payment/impl/CreditCardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/onlineshoppingservice/payment/impl/UPIService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/onlineshoppingservice/service/CartService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/onlineshoppingservice/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/onlineshoppingservice/service/SearchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/onlineshoppingservice/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/socialnetworkingservice/SocialNetworkingDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/socialnetworkingservice/model/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/socialnetworkingservice/model/Images.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/socialnetworkingservice/model/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/socialnetworkingservice/model/Text.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/socialnetworkingservice/model/UserProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/socialnetworkingservice/service/ConnectionRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/socialnetworkingservice/service/ConnectionRequestImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/socialnetworkingservice/service/UserFriendsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/socialnetworkingservice/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/socialnetworkingservice/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/tictactoe/TicTacToeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/tictactoe/enums/PieceType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/tictactoe/model/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/tictactoe/model/TicTacToe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/tictactoe/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/twitter/model/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/twitter/model/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/twitter/model/IsLiked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/twitter/model/Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/twitter/model/Posts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/twitter/model/PostsCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/twitter/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/twitter/service/Commentable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/twitter/service/PostService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/twitter/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/src/twitter/service/UserServiceImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +312,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
         <option value="Enum" />
-        <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -57,8 +331,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Nikhilsandilya17/Practice.git&quot;,
-    &quot;accountId&quot;: &quot;b90fbd26-6ba3-4c85-b80c-af9e764f93b1&quot;
+    &quot;url&quot;: &quot;https://github.com/Nikhilsandilya17/LLDPracticeSolutions.git&quot;,
+    &quot;accountId&quot;: &quot;5f51e709-92eb-458e-a798-fc1a7511a703&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -88,11 +362,17 @@
     "Application.MediaPlayerDemo.executor": "Run",
     "Application.NullObjectDemo.executor": "Run",
     "Application.ObserverDemo.executor": "Run",
+    "Application.PrototypeDemo.executor": "Run",
+    "Application.SOLID.src.dependencyinversionprinciple.DIPDemo.executor": "Run",
+    "Application.SOLID.src.liskovsubstitutionprinciple.LSPDemo.executor": "Run",
     "Application.SingletonDemo.executor": "Run",
     "Application.Stock.executor": "Run",
     "Application.StrategyDemo.executor": "Run",
     "Application.TVRemoteDemo.executor": "Run",
+    "Application.designPatterns.executor": "Run",
+    "Application.designPatterns.src.creational_design_pattern.prototye.approach3.PrototypeDemo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
@@ -103,7 +383,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/nikhil/Desktop/Nikhil/Nikhil/Practice 3.16.21 PM/SOLID/openClosedPrinciple/src/Main.java",
+    "onboarding.tips.debug.path": "/Users/nikhil.sandilya/Desktop/Nikhil/LLDPracticeSolutions/Solution/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -116,14 +396,17 @@
       <recent name="$PROJECT_DIR$/designPatterns" />
       <recent name="$PROJECT_DIR$/problems" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Solution/src" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.DIPDemoBetter">
-    <configuration name="DIPDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dependencyinversionprinciple.DIPDemo" />
-      <module name="SOLID" />
+  <component name="RunManager" selected="Application.designPatterns.src.creational_design_pattern.prototye.approach3.PrototypeDemo">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPatterns.src.creational_design_pattern.builder.BetterCode.Client" />
+      <module name="Solution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dependencyinversionprinciple.*" />
+          <option name="PATTERN" value="designPatterns.src.creational_design_pattern.builder.BetterCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,7 +414,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DIPDemoBetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DIPDemoBetter" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="dependencyinversionprinciple.BetterSolution.DIPDemoBetter" />
       <module name="SOLID" />
       <extension name="coverage">
@@ -144,12 +429,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LSPDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liskovsubstitutionprinciple.LSPDemo" />
-      <module name="SOLID" />
+    <configuration name="PrototypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPatterns.src.creational_design_pattern.prototye.approach2.PrototypeDemo" />
+      <module name="Solution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liskovsubstitutionprinciple.*" />
+          <option name="PATTERN" value="designPatterns.src.creational_design_pattern.prototye.approach2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,40 +442,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="SOLID.src.dependencyinversionprinciple.DIPDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SOLID.src.dependencyinversionprinciple.DIPDemo" />
+      <module name="Solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SOLID.src.dependencyinversionprinciple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SOLID.src.liskovsubstitutionprinciple.LSPDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SOLID.src.liskovsubstitutionprinciple.LSPDemo" />
+      <module name="Solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SOLID.src.liskovsubstitutionprinciple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="designPatterns" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="azul-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="designPatterns" />
+      <module name="designPatterns" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="designPatterns.src.creational_design_pattern.prototye.approach3.PrototypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPatterns.src.creational_design_pattern.prototye.approach3.PrototypeDemo" />
+      <module name="Solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designPatterns.src.creational_design_pattern.prototye.approach3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="solutions" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="openclosedprinciple.Main" />
-      <module name="SOLID" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="solutions" />
+      <option name="filePath" />
+      <method v="2" />
     </configuration>
-    <configuration name="ObserverDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behaviourial_design_pattern.observer.Example2.ObserverDemo" />
-      <module name="designPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="behaviourial_design_pattern.observer.Example2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.designPatterns" />
+      <item itemvalue="Application.DIPDemoBetter" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.PrototypeDemo" />
+      <item itemvalue="Application.SOLID.src.dependencyinversionprinciple.DIPDemo" />
+      <item itemvalue="Application.SOLID.src.liskovsubstitutionprinciple.LSPDemo" />
+      <item itemvalue="Application.designPatterns.src.creational_design_pattern.prototye.approach3.PrototypeDemo" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DIPDemoBetter" />
-        <item itemvalue="Application.DIPDemo" />
-        <item itemvalue="Application.LSPDemo" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ObserverDemo" />
+        <item itemvalue="Application.designPatterns.src.creational_design_pattern.prototye.approach3.PrototypeDemo" />
+        <item itemvalue="Application.PrototypeDemo" />
+        <item itemvalue="Application.SOLID.src.liskovsubstitutionprinciple.LSPDemo" />
+        <item itemvalue="Application.SOLID.src.dependencyinversionprinciple.DIPDemo" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -404,103 +730,104 @@
     <MESSAGE value="factory pattern" />
     <MESSAGE value="COR pattern" />
     <MESSAGE value="State design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="State design pattern" />
+    <MESSAGE value="Prototype design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype design pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/StrategyDemo.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/StrategyDemo.java</url>
           <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/Vehicle.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/Vehicle.java</url>
           <line>8</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/Vehicle.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/Vehicle.java</url>
           <line>11</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/SpecialDrive.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/SpecialDrive.java</url>
           <line>6</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/NormalDrive.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/strategy/BetterCode/NormalDrive.java</url>
           <line>7</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/ErrorLogProcessor.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/ErrorLogProcessor.java</url>
           <line>10</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/ErrorLogProcessor.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/ErrorLogProcessor.java</url>
           <line>5</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/ErrorLogProcessor.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/ErrorLogProcessor.java</url>
           <line>15</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/DebugLogProcessor.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/DebugLogProcessor.java</url>
           <line>10</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/DebugLogProcessor.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/DebugLogProcessor.java</url>
           <line>15</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/InfoLogProcessor.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/InfoLogProcessor.java</url>
           <line>10</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/InfoLogProcessor.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/InfoLogProcessor.java</url>
           <line>14</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/InfoLogProcessor.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/InfoLogProcessor.java</url>
           <line>5</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/LogProcessor.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/LogProcessor.java</url>
           <line>9</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/LogProcessor.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/behaviourial_design_pattern/chainOfResponsibility/LogProcessor.java</url>
           <line>14</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/structural_design_pattern/proxy/EmployeeDao.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/proxy/EmployeeDao.java</url>
           <line>4</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/structural_design_pattern/proxy/EmployeeDaoProxy.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/structural_design_pattern/proxy/EmployeeDaoProxy.java</url>
           <line>12</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designPatterns/src/creational_design_pattern/factory/FactoryDemo.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/factory/FactoryDemo.java</url>
           <line>5</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SOLID/src/openclosedprinciple/Main.java</url>
+          <url>file://$PROJECT_DIR$/Solution/src/SOLID/src/openclosedprinciple/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
