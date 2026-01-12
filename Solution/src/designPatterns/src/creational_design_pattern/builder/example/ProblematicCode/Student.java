@@ -1,4 +1,4 @@
-package designPatterns.src.creational_design_pattern.builder.ProblematicCode;
+package designPatterns.src.creational_design_pattern.builder.example.ProblematicCode;
 
 import java.util.List;
 

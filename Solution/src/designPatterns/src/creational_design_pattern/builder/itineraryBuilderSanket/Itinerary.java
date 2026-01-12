@@ -1,4 +1,4 @@
-package designPatterns.src.creational_design_pattern.itineraryBuilderSanket;
+package designPatterns.src.creational_design_pattern.builder.itineraryBuilderSanket;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;

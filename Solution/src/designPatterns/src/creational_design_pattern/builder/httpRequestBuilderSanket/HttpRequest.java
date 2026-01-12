@@ -1,4 +1,4 @@
-package designPatterns.src.creational_design_pattern.httpRequestBuilderSanket;
+package designPatterns.src.creational_design_pattern.builder.httpRequestBuilderSanket;
 
 import java.util.Collections;
 import java.util.HashMap;

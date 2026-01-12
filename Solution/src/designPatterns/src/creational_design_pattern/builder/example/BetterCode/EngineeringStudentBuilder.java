@@ -1,4 +1,4 @@
-package designPatterns.src.creational_design_pattern.builder.BetterCode;
+package designPatterns.src.creational_design_pattern.builder.example.BetterCode;
 
 import java.util.ArrayList;
 import java.util.List;

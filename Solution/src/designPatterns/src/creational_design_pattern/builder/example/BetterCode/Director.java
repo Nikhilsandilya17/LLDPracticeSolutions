@@ -1,4 +1,4 @@
-package designPatterns.src.creational_design_pattern.builder.BetterCode;
+package designPatterns.src.creational_design_pattern.builder.example.BetterCode;
 
 public class Director {
     //Client will call this class methods and create objects for Engineering or Other students

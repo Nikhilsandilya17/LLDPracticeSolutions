@@ -1,4 +1,4 @@
-package designPatterns.src.creational_design_pattern.itineraryBuilderSanket;
+package designPatterns.src.creational_design_pattern.builder.itineraryBuilderSanket;
 
 public class Budget {
     private final String currency;
