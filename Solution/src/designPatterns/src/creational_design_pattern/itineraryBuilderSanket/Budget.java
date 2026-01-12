@@ -1,8 +1,8 @@
-package designPatterns.src.creational_design_pattern.builderSanket;
+package designPatterns.src.creational_design_pattern.itineraryBuilderSanket;
 
 public class Budget {
-    private String currency;
-    private double amount;
+    private final String currency;
+    private final double amount;
 
     public Budget(String currency, double amount) {
         this.currency = currency;

@@ -1,8 +1,9 @@
-package designPatterns.src.creational_design_pattern.builderSanket;
+package designPatterns.src.creational_design_pattern.itineraryBuilderSanket;
 
+import java.time.DayOfWeek;
 import java.time.LocalDate;
+import java.time.temporal.TemporalAdjusters;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -25,14 +26,29 @@ public class Itinerary {
         this.destination = builder.destination;
         this.budget = builder.budget;
         this.travelInsurance = builder.travelInsurance;
-        this.tags = (builder.segments == null) ? Collections.emptyList() : Collections.unmodifiableList(new ArrayList<>(builder.tags));
-        this.segments = (builder.segments == null) ? Collections.emptyList() : Collections.unmodifiableList(new ArrayList<>(builder.segments));
+        this.segments = (builder.segments == null) ? Collections.emptyList() : Collections.unmodifiableList(new ArrayList<>(builder.segments)); //this is defensive on build
+        this.tags = (builder.tags == null) ? Collections.emptyList() : Collections.unmodifiableList(new ArrayList<>(builder.tags));
 
     }
 
     @Override
     public String toString() {
-        return "Itinerary{" + "travellerName='" + travellerName + '\'' + ", startDate=" + startDate + ", endDate=" + endDate + ", origin='" + origin + '\'' + ", destination='" + destination + '\'' + ", segments=" + segments + ", budget=" + budget + ", travelInsurance=" + travelInsurance + ", tags=" + tags + '}';
+        return "Itinerary{" + "travellerName='" + travellerName + '\'' + ", startDate=" + startDate + ", endDate=" + endDate + ", origin='" + origin + '\'' + ", destination='" + destination + '\'' + ", addSegment=" + segments.toString() + ", budget=" + budget + ", travelInsurance=" + travelInsurance + ", tags=" + tags + '}';
+    }
+
+    public static Builder weekendGetAway(String origin, String destination){
+        LocalDate nextSaturday = LocalDate.now().with(TemporalAdjusters.next(DayOfWeek.SATURDAY));
+        return new Builder()
+                .origin(origin)
+                .destination(destination)
+                .startDate(nextSaturday)
+                .endDate(nextSaturday.plusDays(2))
+                .tags("weekend");
+
+    }
+
+    public static Builder builder(){
+        return new Builder();
     }
 
     public static class Builder {
@@ -46,10 +62,15 @@ public class Itinerary {
         private boolean travelInsurance = false;
         private List<String> tags = new ArrayList<>();
 
+        public Builder segments(List<Segment> segments){
+            this.segments = new ArrayList<>(segments); //this is called defensive on copy
+            /**
+             * so that if someone tries to modify the list after passing it to us, it won't affect builder internal state
+             */
+            return this;
+        }
+
         public Builder travellerName(String travellerName) {
-            if (travellerName == null || travellerName.isEmpty()) {
-                throw new IllegalArgumentException("Traveller name cannot be null or empty");
-            }
             this.travellerName = travellerName;
             return this;
         }
@@ -60,9 +81,6 @@ public class Itinerary {
         }
 
         public Builder endDate(LocalDate endDate) {
-            if (startDate != null && endDate.isBefore(this.startDate)) {
-                throw new IllegalArgumentException("End date cannot be before start date");
-            }
             this.endDate = endDate;
             return this;
         }
@@ -83,13 +101,18 @@ public class Itinerary {
             return this;
         }
 
-        public Builder segments(List<Segment> segments) {
-            this.segments = segments;
+        public Builder addSegment(Segment segment) {
+            this.segments.add(segment);
             return this;
         }
 
-        public Builder budget(Budget budget) {
-            this.budget = budget;
+        public Builder tags(String tag) {
+            this.tags.add(tag);
+            return this;
+        }
+
+        public Builder budget(double amount, String currency) {
+            this.budget = new Budget(currency, amount);
             return this;
         }
 

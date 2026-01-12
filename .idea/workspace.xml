@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d1c806c-5efc-435e-a232-9c6a923a5978" name="Changes" comment="Prototype design pattern">
+      <change afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/itineraryBuilderSanket/ItineraryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/itineraryBuilderSanket/Segment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/prototye/Tutorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/prototye/Tutorial.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/builderSanket/Budget.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/itineraryBuilderSanket/Budget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/builderSanket/Itinerary.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/itineraryBuilderSanket/Itinerary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/builderSanket/ItineraryDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/builderSanket/Segment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/builderSanket/Tutorial.md" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/designPatterns/src/creational_design_pattern/itineraryBuilderSanket/Tutorial.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/prototye/PrototypeDesignPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/prototye/approach3/PrototypeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/designPatterns/src/creational_design_pattern/prototye/approach3/PrototypeDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,51 +58,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ChessValidator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CoffeeDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DIPDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DIPDemoBetter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FactoryDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LSPDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoggingDemo.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MediaPlayerDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NullObjectDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObserverDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrototypeDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SOLID.src.dependencyinversionprinciple.DIPDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SOLID.src.liskovsubstitutionprinciple.LSPDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Stock.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StrategyDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TVRemoteDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.designPatterns.executor&quot;: &quot;Run&quot;,
-    &quot;Application.designPatterns.src.creational_design_pattern.prototye.approach3.PrototypeDemo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/nikhil/Desktop/Nikhil/Nikhil/Practice 3.16.21 PM&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/nikhil.sandilya/Desktop/Nikhil/LLDPracticeSolutions/Solution/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ChessValidator.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.CoffeeDemo.executor": "Run",
+    "Application.DIPDemo.executor": "Run",
+    "Application.DIPDemoBetter.executor": "Run",
+    "Application.FactoryDemo.executor": "Run",
+    "Application.HttpRequestDemo.executor": "Run",
+    "Application.ItineraryDemo.executor": "Run",
+    "Application.LSPDemo.executor": "Run",
+    "Application.LoggingDemo.executor": "Debug",
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MediaPlayerDemo.executor": "Run",
+    "Application.NullObjectDemo.executor": "Run",
+    "Application.ObserverDemo.executor": "Run",
+    "Application.PrototypeDemo.executor": "Run",
+    "Application.SOLID.src.dependencyinversionprinciple.DIPDemo.executor": "Run",
+    "Application.SOLID.src.liskovsubstitutionprinciple.LSPDemo.executor": "Run",
+    "Application.SingletonDemo.executor": "Run",
+    "Application.Stock.executor": "Run",
+    "Application.StrategyDemo.executor": "Run",
+    "Application.TVRemoteDemo.executor": "Run",
+    "Application.designPatterns.executor": "Run",
+    "Application.designPatterns.src.creational_design_pattern.prototye.approach3.PrototypeDemo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/nikhil/Desktop/Nikhil/Nikhil/Practice 3.16.21 PM",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/nikhil.sandilya/Desktop/Nikhil/LLDPracticeSolutions/Solution/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/designPatterns" />
@@ -104,20 +114,7 @@
       <recent name="$PROJECT_DIR$/Solution/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.designPatterns.src.creational_design_pattern.prototye.approach3.PrototypeDemo">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designPatterns.src.creational_design_pattern.builder.BetterCode.Client" />
-      <module name="Solution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designPatterns.src.creational_design_pattern.builder.BetterCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HttpRequestDemo">
     <configuration name="DIPDemoBetter" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -133,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designPatterns.src.creational_design_pattern.prototye.approach2.PrototypeDemo" />
+    <configuration name="HttpRequestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPatterns.src.creational_design_pattern.httpRequestBuilderSanket.HttpRequestDemo" />
       <module name="Solution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designPatterns.src.creational_design_pattern.prototye.approach2.*" />
+          <option name="PATTERN" value="designPatterns.src.creational_design_pattern.httpRequestBuilderSanket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +143,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SOLID.src.dependencyinversionprinciple.DIPDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SOLID.src.dependencyinversionprinciple.DIPDemo" />
+    <configuration name="ItineraryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPatterns.src.creational_design_pattern.itineraryBuilderSanket.ItineraryDemo" />
       <module name="Solution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SOLID.src.dependencyinversionprinciple.*" />
+          <option name="PATTERN" value="designPatterns.src.creational_design_pattern.itineraryBuilderSanket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrototypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designPatterns.src.creational_design_pattern.prototye.approach2.PrototypeDemo" />
+      <module name="Solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designPatterns.src.creational_design_pattern.prototye.approach2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,19 +218,19 @@
     <list>
       <item itemvalue="Application.DIPDemoBetter" />
       <item itemvalue="Application.designPatterns" />
-      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.HttpRequestDemo" />
+      <item itemvalue="Application.ItineraryDemo" />
       <item itemvalue="Application.PrototypeDemo" />
-      <item itemvalue="Application.SOLID.src.dependencyinversionprinciple.DIPDemo" />
       <item itemvalue="Application.SOLID.src.liskovsubstitutionprinciple.LSPDemo" />
       <item itemvalue="Application.designPatterns.src.creational_design_pattern.prototye.approach3.PrototypeDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HttpRequestDemo" />
+        <item itemvalue="Application.ItineraryDemo" />
         <item itemvalue="Application.designPatterns.src.creational_design_pattern.prototye.approach3.PrototypeDemo" />
         <item itemvalue="Application.PrototypeDemo" />
         <item itemvalue="Application.SOLID.src.liskovsubstitutionprinciple.LSPDemo" />
-        <item itemvalue="Application.SOLID.src.dependencyinversionprinciple.DIPDemo" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759694274519</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Prototype design pattern">
+      <option name="closed" value="true" />
+      <created>1768206994659</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1768206994659</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
