@@ -1,31 +1,41 @@
+# Build output
+build/
+out/
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+bin/
 
-### IntelliJ IDEA ###
+# Gradle
+.gradle/
+gradle/
+
+# IDE files
 .idea/
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
 *.iml
 *.ipr
-
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+*.iws
 .vscode/
+.classpath
+.project
+.settings/
 
-### Mac OS ###
+# OS files
 .DS_Store
+Thumbs.db
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs and reports
+*.log
+logs/
+
+# Gradle wrapper (keep the wrapper JAR if you want it)
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Keep gradlew scripts
+!gradlew
+!gradlew.bat
