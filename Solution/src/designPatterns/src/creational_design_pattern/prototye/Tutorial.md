@@ -1,4 +1,4 @@
-/*
+
 Problem statement: To get rid of multiple times object creation of 'SIMILAR' type
 Example1:
 Lets consider we have Chessboard and a piece Pawn, now to create a pawn we need to do lot of initializations
@@ -63,6 +63,6 @@ SRP is also satisfied as driver class has only one responsibility
 DRY is also satisfied as we are not duplicating code
 Now the object in itself will decide which copy constructor to call
 This is how prototype design pattern works
-*/
+
 
 
