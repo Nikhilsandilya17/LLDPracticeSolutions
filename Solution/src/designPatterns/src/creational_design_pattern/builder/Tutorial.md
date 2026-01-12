@@ -24,7 +24,7 @@ class User {
 For now, all the properties have visibility **public**.
 
 ```java
-user = new User();
+User user = new User();
 
 ```
 
@@ -39,7 +39,7 @@ The moment these are **private properties**, now no one can modify these props o
 Introduce getter and setter methods (now we can have our validations in setter methods).
 
 ```java
-setFirstName(x) {
+setFirstName(String x) {
     if(x == null || x.length == 0) {
         throw new Exception("Invalid First Name");
     }
@@ -55,14 +55,14 @@ As we are able to call a setter on a user object, this means the user object has
 1. Through `User user = new User();` — at time **t1**.
 2. Then `user.setFirstName("nikhil")` — at time **t2**.
 
-So between time **t1** and **t2**, the user is **invalid** as `new user()` is called with the default constructor, which means empty `firstName`, empty `lastName`, empty `email`, `password`. So the user is an invalid object.
+So between time **t1** and **t2**, the user is **invalid** object as `new user()` is called with the default constructor, which means empty `firstName`, empty `lastName`, empty `email`, `password`. So the user is an invalid object.
 
-Because the object was created using the default constructor, till the time we don't manually call all the relevant setters, this object is invalid as it does not go through any validations.
-
+Because the object was created using the default constructor, till the time we don't manually call all the relevant setters, this object is invalid as it does not go through any validations and
+the firstName, lastName etc fields remain empty.
 Let's say we had a newbie working with the codebase and they did not altogether call this setter; so we had an invalid object floating around in the system which can cause issues later.
 **Ex:** A `DBConnection` class without `url`, `username`, `password` set.
 
-**Another Problem:** What if the object is immutable?
+**Another Problem:** What if the object is immutable? - in that case as well setter wont work
 
 ---
 
