@@ -157,6 +157,7 @@ void setAge(x) {
         return;
     }
     this.age = x;
+    return this;
 }
 
 ```
@@ -164,10 +165,10 @@ void setAge(x) {
 Let's see how object creation is going to look like:
 
 ```java
-b = new Builder();
+Builder b = new Builder();
 b.setFirstName("Sanket");
 b.setAge(25);
-u = new User(b);
+User u = new User(b);
 
 ```
 
@@ -196,7 +197,7 @@ Instead of having the return type of setters as `void`, what if we have it as `B
 So now as the return type is Builder, we can **chain** the setter calls.
 
 ```java
-Builder setAge(x) {
+Builder setAge(int x) {
     if(this.x < 0) {
         // handle error
     }
@@ -208,7 +209,7 @@ Builder setAge(x) {
 So now object construction can look something like:
 
 ```java
-b = new Builder();
+Builder b = new Builder();
 b.age(10).firstName("Sanket").lastName("singh").build() // this is function chaining
 
 ```
@@ -216,7 +217,7 @@ b.age(10).firstName("Sanket").lastName("singh").build() // this is function chai
 And this line can directly return a new user object as the `build` function is returning a user object:
 
 ```java
-u = new Builder().age(10).firstName("Sanket").lastName("singh").build()
+User u = new Builder().age(10).firstName("Sanket").lastName("singh").build()
 
 ```
 
@@ -251,7 +252,7 @@ class User {
 I can just say:
 
 ```java
-new User.Builder();
+User user  = new User.Builder();
 
 ```
 
@@ -266,4 +267,5 @@ User user = new User.Builder()
 
 ```
 
-Calling the constructor of Builder, and using build we call the user constructor.
+Calling the constructor of Builder, and using build we call the user constructor. Fields in Builder class will not be final and on the other hand fields in User class can be final as they will be set only once during object creation
+This is done to achieve immutability of User class.
