@@ -152,7 +152,7 @@ Builder() {
     // normal default constructor
 }
 
-void setAge(x) {
+void setAge(int x) {
     if(this.x < 0) {
         return;
     }
@@ -201,6 +201,7 @@ Builder setAge(int x) {
     if(this.x < 0) {
         // handle error
     }
+    this.age = x;
     return this; // returning current object of builder
 }
 
@@ -269,3 +270,6 @@ User user = new User.Builder()
 
 Calling the constructor of Builder, and using build we call the user constructor. Fields in Builder class will not be final and on the other hand fields in User class can be final as they will be set only once during object creation
 This is done to achieve immutability of User class.
+
+- Now we can enforce validations in build() method of Builder class so that before creating User object we can ensure all 'required' fields are set and valid.
+- Refer httpRequestBuilderSanket and itineraryBuilderSanket for more examples of builder pattern with static inner class.
