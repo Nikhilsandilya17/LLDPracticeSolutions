@@ -19,7 +19,6 @@ public class ATM {
         this.atmState = ATMState.IDLE;
     }
 
-
     /**
      * This complete class is violating the OCP
      */
@@ -152,4 +151,13 @@ public class ATM {
 
 /**
  * Storing it as enum would also not work as code would start violating OCP withh multiple 'if' checks
+ * Repeated code duplication
+ * To handle SRP violation, we can make different classes like CashDispensingState, CardInsertionState and methods under them
+ * like cancelTransaction under each class showing what would happen on cancelling transaction when we are in that state.
+ * with this although SRP is not violated but still DIP and OCP are getting violated
+ * 1. because in ATM class we must be referencing the newly made CashDispensingState class as we must be calling methods there based in atm state  (newly made to resolve SRP)
+ * and DIP says that no class should refer concrete classes.
+ * 2. also in CardInsertionState class if we cancel the transaction we need to change the states and states are stored in ATM class itself
+ * So from CardInsertionState class how would we change the corresponding state of ATM class
+ * 3. also if we introduce new states we still need to change the ATM class (OCP still getting violated)
  */
