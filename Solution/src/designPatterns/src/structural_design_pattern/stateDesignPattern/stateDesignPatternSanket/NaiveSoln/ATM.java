@@ -4,24 +4,68 @@ import java.util.UUID;
 
 public class ATM {
 
+    //Enum for ATM states
+    private enum ATMState{
+        IDLE, TRANSACTION_IN_PROGRESS, CARD_INSERTED, AMOUNT_ENTERED, DISPENSING_CASH
+    }
+
+    //Instance variables
+    private String atmId;
+    private ATMState atmState;
+
+    //Constructor
+    public ATM(String atmId) {
+        this.atmId = atmId;
+        this.atmState = ATMState.IDLE;
+    }
+
+
+    /**
+     * This complete class is violating the OCP
+     */
     public String startTransaction(){
+//        if(atmState != ATMState.IDLE){
+//            throw new IllegalArgumentException("ATM is already busy with another transaction. Please wait.");
+//        }
+        if(atmState == ATMState.TRANSACTION_IN_PROGRESS){
+            throw new IllegalArgumentException("ATM is already busy with another transaction. Please wait.");
+        }
+        if(atmState == ATMState.CARD_INSERTED){
+            throw new IllegalArgumentException("Card is already inserted. Please wait.");
+        }
+        if(atmState == ATMState.DISPENSING_CASH){
+            throw new IllegalArgumentException("Dispensing cash, Not able to start transaction. Please wait.");
+        }
+        atmState = ATMState.TRANSACTION_IN_PROGRESS;
         String transactionId = generateTransactionId();
         System.out.println("Transaction started with id: " + transactionId);
         return transactionId;
     }
 
-    public boolean cancelTransaction(String transactionId){
-        System.out.println("Transaction with id: " + transactionId + " is cancelled.");
+    public boolean cancelTransaction(){
+        if(atmState == ATMState.IDLE){
+            throw new IllegalArgumentException("No transaction can be cancelled. Please wait.");
+        }
+        if(atmState == ATMState.DISPENSING_CASH){
+            throw new IllegalArgumentException("Cannot cancel transaction while dispensing cash. Please wait.");
+        }
+        atmState = ATMState.IDLE;
+        System.out.println("Transaction cancelled with id: " + atmId);
         return true;
     }
 
     public boolean readCard(String cardType, long cardNumber, int pin){
+        if(atmState != ATMState.TRANSACTION_IN_PROGRESS){
+            throw new IllegalArgumentException("Cannot read card. Please start transaction first.");
+        }
+        atmState = ATMState.CARD_INSERTED;
         System.out.println("Validating card: "+ cardType + " with card number: " + cardNumber + " and pin: " + pin);
         boolean isValid = validateCardDetails(cardType, cardNumber, pin);
         if(isValid){
             System.out.println("Card details are valid. Proceeding with transaction.");
         }
         else{
+            atmState = ATMState.IDLE;
             System.out.println("Invalid card details. Please try again.");
         }
         return isValid;
@@ -103,4 +147,9 @@ public class ATM {
  * Solution: Clearly define state transitions and ensure operations are allowed only in valid states. Update the state after each successfull operations
  *
  * 6. Violates SRP,
+ */
+
+
+/**
+ * Storing it as enum would also not work as code would start violating OCP withh multiple 'if' checks
  */
