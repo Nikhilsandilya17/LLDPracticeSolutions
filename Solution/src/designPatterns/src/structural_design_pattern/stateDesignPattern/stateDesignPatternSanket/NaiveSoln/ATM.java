@@ -161,3 +161,10 @@ public class ATM {
  * So from CardInsertionState class how would we change the corresponding state of ATM class
  * 3. also if we introduce new states we still need to change the ATM class (OCP still getting violated)
  */
+
+/**
+ * We are violating the Dependency inversion principle as now our ATM class depends on lot of concrete on a lot of concrete state classes?
+ * How can we resolve it?
+ * May be we can have a State interface and then multiple classes can implement this iterface and our ATM class will be only depending on one State object
+ * which will be getting the instance of the corresponding state based on what is going on in the txn.
+ */

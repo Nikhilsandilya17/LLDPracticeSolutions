@@ -1,0 +1,11 @@
+package designPatterns.src.structural_design_pattern.stateDesignPattern.stateDesignPatternSanket.ATMMachine_StateDesignPatter.apis;
+
+import designPatterns.src.structural_design_pattern.stateDesignPattern.stateDesignPatternSanket.ATMMachine_StateDesignPatter.DTO.CreateTransactionRequestDto;
+import designPatterns.src.structural_design_pattern.stateDesignPattern.stateDesignPatternSanket.ATMMachine_StateDesignPatter.DTO.GetATMAmountRequestDto;
+import designPatterns.src.structural_design_pattern.stateDesignPattern.stateDesignPatternSanket.ATMMachine_StateDesignPatter.DTO.UpdateATMStateRequestDto;
+
+public interface BackendAPI {
+    int createTransaction(CreateTransactionRequestDto createTransactionRequestDto);
+    boolean updateState(UpdateATMStateRequestDto updateATMStateRequestDto);
+    int getATMAmount(GetATMAmountRequestDto getATMAmountRequestDto);
+}

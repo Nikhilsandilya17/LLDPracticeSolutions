@@ -1,6 +1,6 @@
-Q. Design a ATM
+Design a ATM
 
-What are the requirements of the system?
+### What are the requirements of the system?
 
 1. Single transaction support
 2. The system should allow only one transaction at a time for a particular user. No concurrent transactions should be allowed for the same user.
@@ -13,7 +13,7 @@ What are the requirements of the system?
    - Before inserting the card
    - After being prompted to
 
-Let's clarify the flow of an ATM
+### Let's clarify the flow of an ATM
 
 1. Transaction start
 Action: User presses the start transaction button
@@ -63,10 +63,17 @@ API call:
    Mark the transaction as completed or canceled in the system, record the transaction details for auditing and tracking purposes
 
 
-API overview
+## API overview
 
 1. Start transaction API - Initiated when the user presses the start button, returns a unique transaction ID
 2. Cancel transaction API - Stops the transaction at any valid point and resets the state
 3. Validate card: Checks if the card is valid or not
 4. Validate amount: Ensures the entered amount can be dispensed
 5. Close transaction: Finalizes the transaction and records the details
+
+
+## How to identify problem involves State design pattern
+1. Massive Conditional Logic: Your class is riddled with massive switch statements or if-else blocks (e.g., if (state == DRAFT) { ... } else if (state == PUBLISHED) { ... }).
+2. Behavior Changes with State: The object responds completely differently to the exact same method call depending on its current state.
+3. Complex State Transitions: The rules for moving from one state to another are complicated, require validation, or trigger specific side effects.
+4. Frequent State Additions: Adding a new state to your system is a nightmare because it forces you to hunt down and modify conditional logic in dozens of different methods, violating the Open/Closed Principle.
